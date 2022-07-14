@@ -100,6 +100,7 @@ function Forcast(props) {
                 <span className="temp">
                   {Math.round(weather.main.humidity)}%
                 </span>
+                
               </li>
               <li>
                 Visibility{" "}
