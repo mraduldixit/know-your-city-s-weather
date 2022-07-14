@@ -692,3 +692,10 @@ div#txt {
   right: 20px;
   top: 1.5%;
 }
+.footer-info{
+  font-size: 2rem;
+}
+.footer-info span{
+  color: blue;
+  text-decoration: underline;
+}

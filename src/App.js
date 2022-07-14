@@ -10,8 +10,8 @@ function App() {
       </div>
       <div className="footer-info">
         Developed by{" "}
-        <a  href="https://www.github.com/shrimaliashish/">
-          Ashish Shrimali
+        <a  href="https://github.com/mraduldixit/">
+         <span>Mradul Dixit</span> 
         </a>
       </div>
     </React.Fragment>
