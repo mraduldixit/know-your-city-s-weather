@@ -374,11 +374,17 @@ div#txt {
   .container {
     width: 50%;
   }
+  .containers{
+    display: flex;
+  }
 }
 
 @media screen and (max-width: 1440px) {
   .container {
     width: 55%;
+  }
+  .containers{
+    display: flex;
   }
 }
 
@@ -386,11 +392,17 @@ div#txt {
   .container {
     width: 60%;
   }
+  .containers{
+    display: flex;
+  }
 }
 
 @media screen and (max-width: 1024px) {
   .container {
     width: 75%;
+  }
+  .containers{
+    display: flex;
   }
 }
 
@@ -398,11 +410,17 @@ div#txt {
   .container {
     width: 90%;
   }
+  .containers{
+    display: flex;
+  }
 }
 
 @media screen and (max-width: 853px) {
   h1 {
     font-size: 45px;
+  }
+  .containers{
+    display: flex;
   }
   /*--w3layouts--*/
   /*--agileits--*/
@@ -417,6 +435,9 @@ div#txt {
   }
   .dmy {
     padding-top: 25px;
+  }
+  .containers{
+    display: flex;
   }
 }
 
@@ -433,6 +454,9 @@ div#txt {
   .forecast-icon img {
     width: 110px;
   }
+  .containers{
+    display: flex;
+  }
 }
 
 @media screen and (max-width: 667px) {
@@ -443,6 +467,9 @@ div#txt {
   .container {
     width: 95%;
     margin-top: 30px;
+  }
+  .containers{
+    display: flex;
   }
 }
 
@@ -461,6 +488,9 @@ div#txt {
   }
   .temperature p {
     padding-bottom: 10px;
+  }
+  .containers{
+    display: flex;
   }
 }
 
@@ -495,11 +525,17 @@ div#txt {
     line-height: 30px;
     font-size: 14px;
   }
+  .containers{
+    display: flex;
+  }
 }
 
 @media screen and (max-width: 533px) {
   h1 {
     font-size: 33px;
+  }
+  .containers{
+    display: flex;
   }
 }
 
@@ -585,6 +621,9 @@ div#txt {
     margin-top: 22px;
     padding: 25px 0px;
   }
+  .containers{
+    display: flex;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -604,6 +643,9 @@ div#txt {
   }
   .temperature p {
     padding-bottom: 15px;
+  }
+  .containers{
+    display: flex;
   }
 }
 
@@ -694,8 +736,13 @@ div#txt {
 }
 .footer-info{
   font-size: 2rem;
+  margin-bottom: 10px;
 }
 .footer-info span{
-  color: blue;
-  text-decoration: underline;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 10px;
+}
+.containers{
+  display: flex;
 }
